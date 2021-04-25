@@ -1,0 +1,10 @@
+.idea/
+.ipynb_checkpoints/
+web/.vscode/
+web/backend/app/fixtures/
+web/backend/.mypy_cache/
+web/backend/.pytest_cache/
+web/backend/app/*.db
+*.db
+*.sqlite3
+

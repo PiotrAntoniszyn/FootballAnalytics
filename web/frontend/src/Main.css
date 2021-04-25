@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#app-root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D70A2;
+    font: 15px courier,arial,helvetica;
+    overflow: hidden;
+}
+
+#footer{
+    background-color: white;
+    width: 90%;
+    margin-top: 1em;
+    text-align: center;
+    padding: 0.25em;
+    font-size: x-small;
+    flex-shrink: 0;
+}
+
+#nav-bar{
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 15px;
+    border-radius: 4px;
+    height: 40px;
+    
+}
+
+.base-container {
+    background: #6DAEDB;
+    width: 90%;
+    display: flex;
+    margin-top: 30px;
+    color: rgb(252, 250, 252);
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 60%;
+}
